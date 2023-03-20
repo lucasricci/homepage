@@ -1,8 +1,8 @@
 import styles from '@/styles/Home.module.css'
 
-export default function Home() {
-  return (
-    <p className={styles.paragraph}>
+export default function About() {
+    return (
+        <p className={styles.paragraph}>
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent accumsan pulvinar mattis. Donec convallis quis metus ac feugiat. Sed porttitor lorem a justo consectetur, vel scelerisque velit bibendum. Maecenas sed odio gravida, pulvinar elit sit amet, ultrices odio. Suspendisse fermentum purus faucibus sollicitudin faucibus. Sed dignissim metus non tempus sagittis. Fusce sodales eros ac tortor iaculis, vehicula malesuada massa eleifend. Phasellus dapibus, ex vitae efficitur maximus, purus turpis feugiat odio, non feugiat nunc lacus sodales est. Vestibulum scelerisque ultrices est id fringilla. In a ullamcorper dolor, nec rhoncus magna. Nam risus sapien, commodo ut dignissim a, elementum varius risus. Curabitur ac elementum urna. Duis non risus quis magna maximus efficitur in aliquam justo. Nunc pretium consectetur odio, ut mattis est varius quis. Donec faucibus eros nec neque ornare, eget cursus risus lacinia.
     
@@ -69,5 +69,6 @@ export default function Home() {
     Praesent tincidunt, metus ut ullamcorper vehicula, enim erat viverra tellus, faucibus maximus ante arcu ultricies metus. Maecenas sollicitudin enim et metus rutrum, non malesuada velit convallis. Curabitur in orci placerat, venenatis lacus ac, malesuada enim. Maecenas sollicitudin, lacus a pretium blandit, libero turpis cursus urna, a blandit purus lectus sit amet quam. Curabitur placerat viverra rhoncus. Etiam sagittis lectus at sem condimentum gravida. Nunc quis sapien quis justo maximus bibendum. Pellentesque interdum maximus est ut ultricies. Nulla non feugiat arcu. Fusce vitae suscipit diam.
     
     Nunc lobortis orci at ex venenatis, in tincidunt felis gravida. Aliquam bibendum ligula a enim condimentum pretium. Ut faucibus, tortor ut accumsan finibus, dolor purus venenatis ipsum, a semper nisl lacus nec diam. Vestibulum vehicula porttitor lacinia. Nam urna odio, molestie id neque id, pharetra dictum odio. Mauris eros nunc, consequat et facilisis a, consequat ac libero. Nam nibh nisl, ornare eget pulvinar nec, venenatis id lorem. Ut gravida bibendum augue quis volutpat. Praesent velit nibh, varius sit amet magna sit amet, efficitur ornare metus. Quisque sollicitudin, eros at efficitur efficitur, mauris mi aliquam elit, id imperdiet justo orci vitae ipsum. Cras condimentum erat vitae risus posuere imperdiet. Quisque imperdiet lectus lectus, tincidunt varius turpis suscipit ut. Morbi risus velit, finibus eget placerat sed, tincidunt nec velit. Etiam in odio ac nulla rhoncus dignissim quis a ligula. Mauris pretium sapien. </p>
-  )
+    )
+
 }
