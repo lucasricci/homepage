@@ -8,7 +8,7 @@ export default function Projects() {
             </div>
 
             <div className={styles.content}>
-                <a href='https://github.com/ManimCommunity/awesome-manim'><img width={320} height={180} src='/thumbnails/awesome-manim.png'/></a>
+                <a target="_blank" href='https://github.com/ManimCommunity/awesome-manim' rel="noopener noreferrer"><img width={320} height={180} src='/thumbnails/awesome-manim.png'/></a>
             </div>
         </div>
     )
