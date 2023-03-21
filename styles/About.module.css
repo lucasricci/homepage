@@ -1,0 +1,18 @@
+.container{
+    text-align: center;
+}
+
+.heading{
+    text-align: left;
+    text-decoration: underline  ;
+    font-size: 32px;
+    margin-bottom: 1em;
+}
+
+.contact{
+    margin-top: 1.5em;
+}
+
+.contact a{
+    margin-right: 20px;
+}
