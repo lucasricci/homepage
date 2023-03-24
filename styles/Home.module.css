@@ -1,41 +1,40 @@
-.container h1 {
-    font-size: 32px;
-    text-decoration: underline;
-    margin-bottom: 1.25em;
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+.container {
+  font-family: Roboto;
+  color: #e5e5e5;
+  font-size: 2.26rem;
+  text-transform: uppercase;
+  height: 100vh;
+  display: flex;
 }
 
-.container svg{
-    width: 128px;
-    height: 128px;
-    margin-right: 30px;
+.animation {
+  height:50px;
+  overflow:hidden;
+  margin-left: 1rem;
 }
 
-.container svg:hover path{
-    fill: #fff;
-    transition: 0.5s;
+.animation > div > div {
+  padding: 0.25rem 0.75rem;
+  height:2.81rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
 }
 
-.learning_languages h1 {
-    margin-top: 1.25em;
-    margin-bottom: 1.25em;
+.animation div:first-child {
+  animation: text-animation 16s infinite;
 }
 
-.tools h1 {
-    margin-top: 1.25em;
-}
-
-@media (max-width: 802px) {
-    .languages {
-        width: 100%;
-    }
-    .learning_languages {
-        width: 100%;
-        text-align: center;
-        padding-left: 0;
-    }
-    .tools {
-        margin-left: 0px;
-        margin-top: 16px;
-        width: 100%;
-    }
-}
+@keyframes text-animation {
+    0% {margin-top: 0;}
+    10% {margin-top: 0;}
+    20% {margin-top: -5.62rem;}
+    30% {margin-top: -5.62rem;}
+    40% {margin-top: -11.24rem;}
+    60% {margin-top: -11.24rem;}
+    70% {margin-top: -5.62rem;}
+    80% {margin-top: -5.62rem;}
+    90% {margin-top: 0;}
+    100% {margin-top: 0;}
+  }

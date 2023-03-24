@@ -1,14 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 .nav {
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 10px;
+    padding: 20px;
     background-color: #000;
-    width: 100%;
+    color: #fff;
+}
+@media print {
+    .nav {
+        display: none !important;
+    }
+}
+
+.nav input[type=checkbox] {
+    display: none;
+}
+
+.nav_menu a {
+    text-decoration: none;
     color: #fff;
 }
 
@@ -31,17 +42,87 @@
     margin-top: 5px;
 }
 
-.nav_menu a{
-    margin-right: 20px;
-    font-size: 18px;
-    text-decoration: none;
-    padding: 5px 5px;
-    color: #fff;
+.nav_menu li:last-child {
+    margin-right: 30px;
 }
 
-.nav_menu a:hover{
-    background-color: #555;
+.nav_menu {
+    display: flex;
+    gap: 0px;
+    font-size: 18px;
+}
+
+.nav_menu li {
+    list-style: none;
+}
+
+.nav_menu a {
+    padding: 7px 10px;
+}
+
+.nav_menu a:hover {
+    background-color: #444;
+    /* rounded corners */
     border-radius: 5px;
+    /* hover changes animated */
+    /* transition: 0.3s; */
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        margin-bottom: 35px;
+    }
+
+    .nav_menu {
+        display: block;
+        position: absolute;
+        background-color: #000;
+        right: 0px;
+        left: 0px;
+        text-align: center;
+
+        max-height: 0;
+        padding: 0 0;
+        transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+        overflow: hidden;
+    }
+    /* .nav_menu that is preceded by a checked checkbox in .nav */
+    .nav input[type=checkbox]:checked ~ .nav_menu {
+        /* grow menu when hamburger clicked */
+        max-height: 500px;
+        padding: 16px 0;
+        transition: max-height 0.3s ease-in, padding 0.3s ease-in;
+        z-index: 10;
+    }
+
+    .logo {
+        padding-left: 0;
+    }
+
+    .nav_menu li:last-child {
+        margin-right: 0;
+    }
+
+    .nav_menu li:hover {
+        display: inline-block;
+    }
+    /* all lis except first one */
+    .nav_menu li + li {
+        margin-top: 12px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+    .hamburger:hover {
+        cursor: pointer;
+    }
 }
 
 .content {

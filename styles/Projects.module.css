@@ -4,9 +4,3 @@
     font-size: 32px;
     margin-bottom: 1em;
 }
-
-.content{
-    display: grid;
-    grid-template-columns: repeat(3, 480px);
-    grid-auto-rows: 320px;
-}

@@ -13,10 +13,14 @@ export default function Layout({ children }) {
                     <h1>Lucas Ricci</h1>
                     <h2>Developer</h2>
                 </Link>
-                <div className={styles.nav_menu}>
-                    <a href="/">Home</a>
-                    <a href="/projects">Projects</a>
-                    <a href="/about">About</a>
+                <div>
+                    <input type="checkbox" id="nav_toggle" />
+                    <label htmlFor="nav_toggle" className={styles.hamburger}>&#9776;</label>
+                    <ul className={styles.nav_menu}>
+                        <li><Link href="/">Home</Link></li>
+                        <li><Link href="/projects">Projects</Link></li>
+                        <li><Link href="/about">About</Link></li>
+                    </ul>
                 </div>
             </nav>
 
