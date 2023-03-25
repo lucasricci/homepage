@@ -1,5 +1,5 @@
 import Link from "next/link"
-import Image from 'next/image'
+import Head from 'next/head'
 import * as styles from "/styles/Layout.module.css"
 
 const year = new Date().getFullYear()
@@ -9,7 +9,6 @@ export default function Layout({ children }) {
         <div>
             <nav className={styles.nav}>
                 <Link className={styles.logo} href="/">
-                    {/*<Image src="/logo.png" width="60" height="60" alt="logo"/>*/}
                     <h1>Lucas Ricci</h1>
                     <h2>Developer</h2>
                 </Link>

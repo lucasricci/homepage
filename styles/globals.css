@@ -30,9 +30,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family: 'IBM Plex Mono', monospace;
-	background-color: #444;
-	color: #fff;
+	font-family: 'Source Code Pro', monospace;
+	color: #FFFFFF;
+	background-color: #303030;
 }
 ol, ul {
 	list-style: none;

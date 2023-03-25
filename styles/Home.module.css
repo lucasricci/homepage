@@ -1,40 +1,57 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:700');
-
-.container {
-  font-family: Roboto;
-  color: #e5e5e5;
-  font-size: 2.26rem;
-  text-transform: uppercase;
-  height: 100vh;
+.row {
   display: flex;
 }
 
-.animation {
-  height:50px;
-  overflow:hidden;
-  margin-left: 1rem;
+.column_one, .column_two {
+  flex: 50%;
 }
 
-.animation > div > div {
-  padding: 0.25rem 0.75rem;
-  height:2.81rem;
-  margin-bottom: 2.81rem;
-  display:inline-block;
+.column_one h1 {
+  font-size: 2em;
+  font-weight: bold;
 }
 
-.animation div:first-child {
-  animation: text-animation 16s infinite;
+.column_one p {
+  text-align: justify;
+  color: #CECECE;
+  padding-top: .5em;
+  padding-right: 1em;
+  letter-spacing: .03em;
+  line-height: 1.5;
 }
 
-@keyframes text-animation {
-    0% {margin-top: 0;}
-    10% {margin-top: 0;}
-    20% {margin-top: -5.62rem;}
-    30% {margin-top: -5.62rem;}
-    40% {margin-top: -11.24rem;}
-    60% {margin-top: -11.24rem;}
-    70% {margin-top: -5.62rem;}
-    80% {margin-top: -5.62rem;}
-    90% {margin-top: 0;}
-    100% {margin-top: 0;}
+.languages {
+  display: inline-flex;
+  flex-direction: column;
+  border-radius: 2vh;
+  background-color: #555555;
+}
+
+.languages svg {
+  height: 160px;
+  width: 160px;
+}
+
+.python {
+  filter: brightness(0%);
+}
+
+.python:hover {
+  filter: brightness(100%);
+  transition: 0.5s;
+}
+
+.javascript:hover {
+  fill: #fabd07;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+  .column_one, .column_two {
+    width: 100%;
   }
+
+  .languages svg {
+    width: 100%
+  }
+}
