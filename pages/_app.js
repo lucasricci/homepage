@@ -1,7 +1,7 @@
 import '@/styles/globals.css'
 import App from 'next/app'
 import Head from 'next/head'
-import Layout from '/components/Layout';
+import Layout from '/components/Layout.js';
 
 export default class MyApp extends App {
   render() {
