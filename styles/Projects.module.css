@@ -17,6 +17,9 @@
 
 @media (max-width: 640px) {
     .grid_container {
-        grid-template-column: auto;
+        grid-template-column: auto 0 0;
     }
+    .grid_container img {
+        width: 320px;
+        height: 200px;
 }
