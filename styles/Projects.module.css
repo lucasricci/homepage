@@ -9,7 +9,7 @@
 }
 
 .grid_container {
-    display: grid;
+    display: flex;
     flex-wrap: wrap;
     row-gap: 1.5rem;
     column-gap: 1.5rem;
