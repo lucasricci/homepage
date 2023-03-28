@@ -1,18 +1,38 @@
-.container{
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.container {
+    font-family: 'Roboto Mono', monospace;
 }
 
-.heading{
-    text-align: left;
-    text-decoration: underline  ;
-    font-size: 32px;
-    margin-bottom: 1em;
+.container h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }
 
-.contact{
-    margin-top: 1.5em;
+.content {
+    padding: 2rem 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    height: 88vh;
+    background-color: #14253d;
+    border-radius: 2rem;
 }
 
-.contact a{
-    margin-right: 20px;
+.console {
+    color: limegreen;
+}
+
+.dirs {
+    color: #e08ed2;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact a {
+    margin-top: 1.5rem;
+    margin-right: 1rem;
 }

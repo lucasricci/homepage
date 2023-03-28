@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #000;
+    background-color: hsl(216, 50%, 16%);
     color: #fff;
 }
 @media print {
@@ -133,15 +133,15 @@
 
 .footer {
     width: 100%;
+    bottom: 0;
     height: auto;
     display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #000;
+    background-color: hsl(216, 50%, 16%);
 }
 
 .footer p {
-    font-family: 'IBM Plex Mono', monospace;
     font-weight: 600;
     display: flex;
     justify-items: center;

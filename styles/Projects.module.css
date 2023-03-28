@@ -1,6 +1,16 @@
-.heading{
-    text-align: left;
-    text-decoration: underline  ;
-    font-size: 32px;
-    margin-bottom: 1em;
+.container h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.grid_container img {
+    border-radius: 2rem;
+}
+
+.grid_container {
+    display: grid;
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+    grid-template-columns: auto auto auto;
 }
