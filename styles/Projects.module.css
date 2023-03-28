@@ -15,11 +15,8 @@
     grid-template-columns: auto auto auto;
 }
 
-@media (max-width: 640px) {
+@media screen and (min-width: 375px) and (max-width: 640px) {
     .grid_container {
-        grid-template-column: auto 0 0;
+        grid-template-column: repeat(1,1fr);
     }
-    .grid_container img {
-        width: 320px;
-        height: 200px;
 }
