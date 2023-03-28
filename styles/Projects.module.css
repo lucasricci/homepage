@@ -14,3 +14,9 @@
     column-gap: 1.5rem;
     grid-template-columns: auto auto auto;
 }
+
+@media (max-width: 640px) {
+    .grid_container {
+        grid-template-column: auto;
+    }
+}
