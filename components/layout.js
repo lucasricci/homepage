@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Head from 'next/head'
 import * as styles from "/styles/Layout.module.css"
 
 const year = new Date().getFullYear()

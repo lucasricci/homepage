@@ -27,6 +27,10 @@
     color: #e08ed2;
 }
 
+.zen_of_python {
+    text-align: justify;
+}
+
 .contact {
     display: flex;
     justify-content: center;
