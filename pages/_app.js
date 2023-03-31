@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Layout from '/components/layout';
 
 export default class MyApp extends App {
-  render () {
+  render() {
     const { Component, pageProps } = this.props
     return (
       <Layout>

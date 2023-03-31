@@ -17,6 +17,7 @@ export default function Layout({ children }) {
                     <ul className={styles.nav_menu}>
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="/projects">Projects</Link></li>
+                        <li><Link href="/articles">Articles</Link></li>
                         <li><Link href="/about">About</Link></li>
                     </ul>
                 </div>
