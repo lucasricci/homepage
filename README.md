@@ -2,18 +2,36 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+Second, you can run the project:
 
 ```bash
 npm run dev
 # or
-yarn dev
+yarn run dev
 # or
-pnpm dev
+pnpm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Congrats! Now you can access the site in [http://localhost:3000](http://localhost:3000).
 
-SPECIAL THANKS
---------------
-[Anurag Gharat](https://dev.to/anuraggharat/how-to-create-a-blog-using-nextjs-and-markdown-3j9o)
+## Inspirations
+- [Cristopher Besch - Homepage](chris-besch.com)
+- [Naveen M K - Personal Site](https://www.naveenmk.me/)
+
+## Coding References
+
+- [Responsive Navbar](https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/)
+- [Monty Python Quotes](https://gist.github.com/lucasricci/438d6b5c2a5c031faa4dd48a8920c375)
+- [The Hitchhiker's Guide to the Galaxy](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy)
+
+## Privacy and Licence
