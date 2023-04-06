@@ -28,7 +28,7 @@ Congrats! Now you can access the site in [http://localhost:3000](http://localhos
 - Hosted in [Vercel](https://vercel.com)
 
 ## Inspirations
-- [Cristopher Besch - Homepage](chris-besch.com)
+- [Cristopher Besch - Homepage](https://chris-besch.com)
 - [Naveen M K - Personal Site](https://www.naveenmk.me/)
 
 ## Coding References
