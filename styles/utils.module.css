@@ -12,6 +12,7 @@
     font-weight: 800;
     letter-spacing: -0.05rem;
     margin: 1rem 0;
+    text-transform: uppercase;
 }
 
 .headingLg {
@@ -23,6 +24,20 @@
 .headingMd {
     font-size: 1.2rem;
     line-height: 1.5;
+}
+
+.content {
+    padding: .5rem 1.5rem;
+    height: 100%;
+    text-align: justify;
+    background-color: #14253d;
+    border-radius: 2rem;
+}
+
+.content img {
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
 }
 
 .borderCircle {
@@ -54,4 +69,5 @@
 
 .lightText {
     color: #666;
+    margin-bottom: 1rem;
 }

@@ -22,8 +22,8 @@ export default function About() {
                     <p className={styles.console}>lucas in ~ λ python</p>
                     <p>Python 3.11.2 on dutch-beer</p>
                     <p>Type "help", "copyright", "credits" or "license" for more information.</p>
-                    <p>&gt;&gt;&gt; import this</p><br></br>
-                    <p>The Zen of Python, by Tim Peters</p><br></br>
+                    <p>&gt;&gt;&gt; import this</p><br />
+                    <p>The Zen of Python, by Tim Peters</p><br />
                     <p>
                         Beautiful is better than ugly.<br></br>
                         Explicit is better than implicit.<br></br>
@@ -53,10 +53,13 @@ export default function About() {
                     <img src="https://img.shields.io/badge/-lucasricci-203c63?style=for-the-badge&logo=linkedin" alt="linkedin" />
                 </a>
                 <a href="mailto:llricci@protonmail.com" target="_blank">
-                    <img src="https://img.shields.io/badge/-llricci-203c63?style=for-the-badge&logo=protonmail&logoColor=white" alt="protonmail" />
+                    <img src="https://img.shields.io/badge/-mail_me-203c63?style=for-the-badge&logo=protonmail&logoColor=white" alt="protonmail" />
                 </a>
                 <a href="https://youtube.com/@lucasricci" target="_blank">
                     <img src="https://img.shields.io/badge/-lucasricci-203c63?style=for-the-badge&logo=youtube" alt="youtube" />
+                </a>
+                <a href="https://discord.gg/b9mHcXnTv2" target="_blank">
+                    <img src="https://img.shields.io/badge/-discord-203c63?style=for-the-badge&logo=discord&logoColor=white" alt="discord" />
                 </a>
             </div>
         </div>

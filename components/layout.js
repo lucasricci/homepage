@@ -7,7 +7,7 @@ export default function Layout({ children }) {
     return (
         <div>
             <nav className={styles.nav}>
-                <Link className={styles.logo} href="/">
+                <Link className={styles.logo} href="https://github.com/lucasricci" target="_blank">
                     <h1>Lucas Ricci</h1>
                     <h2>Developer</h2>
                 </Link>
