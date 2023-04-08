@@ -11,3 +11,9 @@
   text-transform: uppercase;
   text-align: center;
 }
+
+@media (max-width: 521px) {
+  .text {
+    font-size: 2rem;
+  }
+}

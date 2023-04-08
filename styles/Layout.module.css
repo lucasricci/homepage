@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: hsl(216, 50%, 16%);
+    height: 5rem;
     color: #fff;
 }
 
@@ -26,8 +27,8 @@
 }
 
 .logo {
-    font-family: var(--source-font);
     margin-left: 30px;
+    line-height: .25rem;
     text-decoration: none;
     color: #fff;
 }
@@ -38,7 +39,6 @@
 
 .logo h2 {
     font-size: 18px;
-    margin-top: 5px;
 }
 
 .nav_menu li:last-child {
@@ -76,6 +76,7 @@
 @media (max-width: 768px) {
     .hamburger {
         margin-bottom: 35px;
+        margin-right: 1rem;
     }
 
     .nav_menu {

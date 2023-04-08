@@ -7,12 +7,12 @@
 .container h1 {
     font-weight: bold;
     font-size: 3rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
 .container p {
     font-size: 1.125rem;
-    line-height: 1.5rem;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased !important;
     -moz-font-smoothing: antialiased !important;
@@ -23,7 +23,7 @@
 .content {
     padding: 2rem 1.5rem;
     height: 100%;
-    text-align: justify;
+    text-align: left;
     background-color: #14253d;
     border-radius: 2rem;
 }
@@ -36,13 +36,11 @@
     color: #e08ed2;
 }
 
-.zen_of_python {
-    text-align: justify;
-}
-
 .contact {
     display: flex;
     justify-content: center;
+    align-items: center;
+
 }
 
 .contact a {
@@ -50,8 +48,16 @@
     margin-right: 1rem;
 }
 
-@media (max-width: 46.5625rem) {
-    .python {
-        text-align: center;
+@media (max-width: 521px) {
+    .container p {
+        line-height: 1.25rem;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact img {
+        width: 125.5px;
     }
 }
